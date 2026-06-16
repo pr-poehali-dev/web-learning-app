@@ -265,9 +265,7 @@ function ProfileSection({ level }: { level: string }) {
       <SectionTitle kicker="Аккаунт" title="Мой профиль" />
       <div className="glass rounded-3xl p-8 md:p-10 animate-fade-in">
         <div className="flex flex-col sm:flex-row items-center gap-6">
-          <div className="w-24 h-24 rounded-3xl bg-aurora animate-gradient-shift flex items-center justify-center text-5xl glow-shadow">
-            🧑‍🚀
-          </div>
+          <div className="w-24 h-24 rounded-full glow-shadow" style={{ background: 'linear-gradient(135deg, hsl(270,95%,65%), hsl(190,95%,55%), hsl(320,90%,60%))' }} />
           <div className="text-center sm:text-left">
             <h3 className="font-display font-extrabold text-3xl">Будущий веб-разработчик</h3>
             <p className="text-muted-foreground mt-1">Ваш уровень: {lvl.emoji} {lvl.title}</p>
