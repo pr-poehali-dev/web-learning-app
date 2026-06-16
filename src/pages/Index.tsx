@@ -390,7 +390,8 @@ const Index = () => {
       </nav>
 
       <footer className="container px-4 py-10 text-center text-sm text-muted-foreground">
-        WebLerner · учим веб-разработке понятным языком 🚀
+        WebLerner · учу веб-разработке понятным языком 🚀
+        <div className="mt-2 font-mono text-xs opacity-60">© Вахрушев И.Г. 2026 г.</div>
       </footer>
     </div>
   );
